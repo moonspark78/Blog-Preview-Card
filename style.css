@@ -1,2 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    padding: 7rem 1rem;
+}
+
+.container{
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px black;
+}
+
+.container div:first-child img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.container div:nth-child(2) h2{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    font-size: 1rem;
+    padding: 3px 9px;
+    border-radius: 0.2rem;
+
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
