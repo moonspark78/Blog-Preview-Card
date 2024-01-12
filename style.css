@@ -17,6 +17,8 @@ body{
     border: 1px solid black;
     border-radius: 1rem;
     box-shadow: 10px 10px 0px black;
+    max-width: 500px;
+    margin-inline: auto;
 }
 
 .container div:first-child img{
@@ -55,7 +57,7 @@ body{
 
 .container div:nth-child(2) ul  li:nth-child(2){
     font-weight: bold;
-    
+
 }
 
 
